@@ -2,6 +2,12 @@ pipeline{
 agent any
 stages 
 {
+stage('Commit') 
+{
+steps{
+echo "Commiting the Project.........."
+}
+}
 stage('Build') 
 {
 steps{
