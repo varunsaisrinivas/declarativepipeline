@@ -13,6 +13,7 @@ pipeline {
 				{
 					steps{
 						echo "Deploy the Project.........."
+						dfdfdfdfd
 					          }
 				}
 				stage('Test') 
